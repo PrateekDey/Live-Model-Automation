@@ -1,0 +1,11 @@
+[run]
+branch = True
+source = app
+
+[report]
+exclude_lines=
+    if __name__ == .__main__.:
+omit =
+    */settings.py
+    */python?.?/*
+show_missing = True
